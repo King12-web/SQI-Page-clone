@@ -668,16 +668,17 @@ nav{
     color: white;
     position: relative;
 }
-.fa2i button.fa-angle-right{
-    position: absolute;
-    top: 40px;
-    transform: translate(-40px);
-    transform: all 0.3s;
+.fa2i button .fa-angle-right{
+    position: relative;
+    top: -1px;
+    transform: translate(-6px);
+    transition: transform 0.3s, opacity 0.3s;
     opacity: 0;
     font-size: 14px;
+    vertical-align: middle;
 }
 .fa2i button:hover .fa-angle-right{
-    transform: translate(6px);
+    transform: translate(2px);
     opacity: 1;
 }
 .news-last{
@@ -713,7 +714,7 @@ nav{
 .news-flex div{
     /* padding: 10px 20px; */
     width: 50%;
-    height: 600px;
+    height: 620px;
     /* border: 1px solid blue; */
     margin: 50px auto;
     background-color: #ffffff;
@@ -760,6 +761,20 @@ nav{
     position: absolute;
     top: 0;
     right: 0;
+}
+.latest button .fa-angle-right{
+    position: relative;
+    top: -1px;
+    transform: translate(-6px);
+    transition: transform 0.3s, opacity 0.3s;
+    opacity: 0;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.latest button:hover .fa-angle-right{
+    transform: translate(2px);
+    opacity: 1;
 }
 .contacts{
        /* border: 1px solid; */
