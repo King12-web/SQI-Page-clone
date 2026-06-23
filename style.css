@@ -835,3 +835,13 @@ footer{
 .last-h3{
     color: blue;
 }
+
+.menu-toggle{
+    display:none;
+    background:none;
+    /* border:none; */
+    border: 1px solid red;
+    font-size:28px;
+    color:#081F89;
+    cursor:pointer;
+}
