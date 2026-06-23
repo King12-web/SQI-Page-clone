@@ -845,3 +845,295 @@ footer{
     color:#081F89;
     cursor:pointer;
 }
+
+@media screen and (max-width:1024px){
+
+    nav{
+        width:95%;
+    }
+
+    .hero-section > div{
+        width:95%;
+        align-items:center;
+    }
+
+    .top{
+        font-size:48px;
+    }
+
+    .hero-img{
+        height:350px;
+    }
+
+    .container{
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+
+    .div-con{
+        width:45%;
+    }
+
+    .courses{
+        flex-wrap:wrap;
+    }
+
+    .div-con2{
+        width:45%;
+    }
+
+    .study-content{
+        grid-template-columns:1fr;
+    }
+
+    .right img{
+        height:auto;
+    }
+
+    .contacts{
+        flex-wrap:wrap;
+    }
+
+    .contacts div{
+        width:45%;
+    }
+
+    .faq-1{
+        flex-direction:column;
+        height:auto;
+        padding:50px 20px;
+    }
+
+    .fa1i,
+    .fa1ii{
+        width:100%;
+        margin-top:0;
+    }
+
+    .fa2{
+        width:90%;
+        margin:auto;
+    }
+}
+
+@media screen and (max-width:767px){
+
+    .menu-toggle{
+        display:block;
+    }
+
+    .nav-links{
+        display:none;
+    }
+
+    nav{
+        width:95%;
+    }
+
+    .hero-section > div{
+        flex-direction:column;
+        width:95%;
+        text-align:center;
+    }
+
+    .top{
+        font-size:36px;
+        line-height:1.2;
+    }
+
+    .top-1{
+        font-size:15px;
+    }
+
+    .hero-img{
+        width:100%;
+        height:auto;
+        margin-top:20px;
+    }
+
+    h2[style]{
+        margin-left:20px !important;
+        font-size:32px !important;
+    }
+
+    .container{
+        flex-direction:column;
+        gap:40px;
+    }
+
+    .div-con{
+        width:100%;
+    }
+
+    .div-con img{
+        width:100%;
+        height:auto;
+    }
+
+    .courses{
+        flex-direction:column;
+    }
+
+    .div-con2{
+        width:100%;
+    }
+
+    .courses-2{
+        grid-template-columns:1fr;
+        gap:30px;
+    }
+
+    .left-column{
+        margin-top:0;
+    }
+
+    .intro h2{
+        font-size:2rem;
+    }
+
+    .tour{
+        flex-direction:column;
+        height:auto;
+        padding:50px 20px;
+    }
+
+    .tour-1,
+    .tour-2{
+        width:100%;
+        height:auto;
+        margin-top:0;
+    }
+
+    .tour iframe{
+        width:100%;
+    }
+
+    .tour h1{
+        font-size:36px;
+    }
+
+    .testi{
+        width:100%;
+        flex-direction:column;
+        height:auto;
+    }
+
+    .div-1{
+        width:100%;
+    }
+
+    .reviews-wrapper{
+        width:100%;
+    }
+
+    .review-card{
+        flex:0 0 90%;
+    }
+
+    .study-content{
+        grid-template-columns:1fr;
+    }
+
+    .features{
+        grid-template-columns:1fr;
+    }
+
+    .left h2{
+        font-size:30px;
+    }
+
+    .faq{
+        min-height: auto;
+    }
+
+    .faq-1{
+        flex-direction:column;
+        height:auto;
+        padding:40px 20px;
+    }
+
+    .fa2i button{
+        flex: none;
+        width: fit-content;
+        min-width: 150px;
+    }
+
+
+    .fa1i,
+    .fa1ii{
+        width:100%;
+        margin-top:0;
+    }
+
+    .fa1i h2{
+        font-size:32px;
+    }
+
+    .faq-2{
+        height:auto;
+        padding:40px 20px;
+    }
+
+    .fa2{
+        width:100%;
+        margin:0;
+        height:auto;
+    }
+
+    .fa2i h2{
+        font-size:38px;
+    }
+
+    .list{
+        flex-wrap:wrap;
+    }
+
+    .news-last{
+        margin-left:0;
+        padding:50px 20px;
+    }
+
+    .news-flex{
+        flex-direction:column;
+    }
+
+    .news-flex div{
+        width:100%;
+        height:auto;
+    }
+
+    .latest{
+        width:100%;
+        position:static;
+        flex-direction:column;
+        height:auto;
+    }
+
+    .latest h2{
+        position:static;
+        font-size:32px;
+    }
+
+    .latest button{
+        position:static;
+        margin-top:20px;
+    }
+
+    .contacts{
+        flex-direction:column;
+    }
+
+    .contacts div{
+        width:100%;
+        min-height:auto;
+    }
+
+    .footer-text{
+        margin-left:20px;
+        padding:20px;
+    }
+
+    .whatsapp-chat span{
+        display:none;
+    }
+}
